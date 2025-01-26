@@ -8,6 +8,7 @@ axios.get(urlTicket, {headers:{'user-agent': 'not axios'}}).then((res) => {
         axios.post('https://api.callmebot.com/whatsapp.php?phone=905057897922&text=saygı1&apikey=2888623');
     }
     else{
+        axios.post('https://api.callmebot.com/whatsapp.php?phone=905057897922&text=bilet yok&apikey=2888623');
         console.log("not ok");
     }
 }).catch((err) => {
